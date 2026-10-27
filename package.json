@@ -1,0 +1,21 @@
+{
+  "name": "emnapi-workerd-finalizer-repro",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node repro.js"
+  },
+  "dependencies": {
+    "@emnapi/core": "2.0.0-beta.2",
+    "@emnapi/runtime": "2.0.0-beta.2"
+  },
+  "devDependencies": {
+    "emnapi": "2.0.0-beta.2",
+    "esbuild": "0.27.2",
+    "workerd": "1.20261027.1"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
